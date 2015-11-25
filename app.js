@@ -20,8 +20,6 @@
 
 // Ensure we're in the project directory, so relative paths work as expected
 // no matter where we actually lift from.
-var dotenv = require('dotenv');
-dotenv.load();
 
 process.chdir(__dirname);
 

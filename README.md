@@ -2,7 +2,6 @@
 
 The first public API for Illinois dispensaries. This is an open project that is aimed to publish data released via **IDFPR**'s [Medical Cannabis Pilot Program](http://www.idfpr.com/profs/medcan.asp).
 
-
 ## Data Sources
 
 * http://www.idfpr.com/Forms/MC/ListofLicensedDispensaries.pdf
