@@ -19,14 +19,20 @@
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.connections.html
  */
 
+var dotenv = require('dotenv');
+dotenv.load();
+
 module.exports.connections = {
 
-  main: {
-    adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-    database: 'il-dispensary-api'
-  }
+  localDiskDb: {
+    adapter: 'sails-disk'
+  },
 
+  main: {
+    adapter: process.env.DB_ADAPTER,
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    database: process.env.DB_LOC
+  }
 
 };
