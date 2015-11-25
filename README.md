@@ -5,6 +5,7 @@ The first public API for Illinois dispensaries. This is an open project that is 
 
 ## Data Sources
 
+* http://www.idfpr.com/Forms/MC/ListofLicensedDispensaries.pdf
 
 ## Technology
 
@@ -53,5 +54,4 @@ attributes: {
 
 ##### MongoDB Importing
 
-`mongoimport --collection dispensary --file dataset.json --type json -d il-dispensary-api
-`
+`mongoimport --collection dispensary --file dispensary.json --type json -d il-dispensary-api --jsonArray`
