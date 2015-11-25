@@ -1,9 +1,9 @@
 {
-  "name": "il-dispensaries",
+  "name": "il-dispensaries-api",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
-  "keywords": [],
+  "keywords": ["Illinois", "Dispensary", "Medical"],
   "dependencies": {
     "ejs": "~0.8.4",
     "grunt": "0.4.2",
@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/il-dispensaries.git"
+    "url": "git://github.com/code-for-coffee/il-dispensaries-api.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "MIT"
 }
