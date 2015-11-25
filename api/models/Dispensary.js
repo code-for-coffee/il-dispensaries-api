@@ -24,7 +24,12 @@ module.exports = {
       type: 'string',
       required: true
     },
-
+    lat: {
+      type: 'string'
+    },
+    long: {
+      type: 'string'
+    },
     medicalCannabisDistrict: {
       type: 'integer',
       required: true
