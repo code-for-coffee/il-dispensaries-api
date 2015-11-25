@@ -48,3 +48,10 @@ attributes: {
   }
 }
 ```
+
+#### Maintenance Notes
+
+##### MongoDB Importing
+
+`mongoimport --collection dispensary --file dataset.json --type json -d il-dispensary-api
+`

@@ -16,6 +16,15 @@ module.exports = {
       type: 'string',
       required: true
     },
+    phone: {
+      type: 'string',
+      required: true
+    },
+    city: {
+      type: 'string',
+      required: true
+    },
+
     medicalCannabisDistrict: {
       type: 'integer',
       required: true

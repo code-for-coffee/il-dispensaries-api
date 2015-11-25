@@ -3,6 +3,8 @@ logs
 *.log
 .env
 dataset.json
+dispensary.json
+
 
 # Runtime data
 pids
