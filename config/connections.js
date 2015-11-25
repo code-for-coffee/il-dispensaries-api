@@ -22,7 +22,11 @@
 module.exports.connections = {
 
   main: {
-   adapter: 'sails-disk'
+    adapter: 'sails-mongo',
+    host: 'localhost',
+    port: 27017,
+    database: 'il-dispensary-api'
   }
+
 
 };
