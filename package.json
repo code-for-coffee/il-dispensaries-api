@@ -39,6 +39,6 @@
     "type": "git",
     "url": "git://github.com/code-for-coffee/il-dispensaries-api.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "code-for-coffee",
   "license": "MIT"
 }
