@@ -14,7 +14,7 @@ This is a full stack application written in Node.js with Express using  [Sails](
 
 #### Dispensary
 
-* Access via `/api-v1/dispensary`
+* Access via `/api-v1`
 
 ```javascript
 attributes: {

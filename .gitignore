@@ -2,6 +2,7 @@
 logs
 *.log
 .env
+dataset.json
 
 # Runtime data
 pids
