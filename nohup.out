@@ -1,0 +1,299 @@
+
+[32minfo: [39m[90mStarting app...[39m
+
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:38:52 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+
+[32minfo: [39m[90mStarting app...[39m
+
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:40:32 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:47:51 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:48:20 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:48:55 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:49:01 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::80
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at Server.listen (net.js:1366:5)
+    at Array.async.auto.start (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/hooks/http/start.js:29:35)
+    at /root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:484:38
+    at _each (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:46:13)
+    at Object.async.auto (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:455:9)
+    at Sails.startServer (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/hooks/http/start.js:16:11)
+    at emitNone (events.js:67:13)
+    at Sails.emit (events.js:166:7)
+    at Sails.emitter.emit (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/after.js:50:11)
+    at afterBootstrap (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/initialize.js:56:11)
+    at bootstrapDone (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/bootstrap.js:51:14)
+    at Object.module.exports.bootstrap (/root/mongodb-imports/il-dispensaries-api/config/bootstrap.js:16:3)
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:50:12 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::80
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at Server.listen (net.js:1366:5)
+    at Array.async.auto.start (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/hooks/http/start.js:29:35)
+    at /root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:484:38
+    at _each (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:46:13)
+    at Object.async.auto (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:455:9)
+    at Sails.startServer (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/hooks/http/start.js:16:11)
+    at emitNone (events.js:67:13)
+    at Sails.emit (events.js:166:7)
+    at Sails.emitter.emit (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/after.js:50:11)
+    at afterBootstrap (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/initialize.js:56:11)
+    at bootstrapDone (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/bootstrap.js:51:14)
+    at Object.module.exports.bootstrap (/root/mongodb-imports/il-dispensaries-api/config/bootstrap.js:16:3)
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:53:11 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::80
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at Server.listen (net.js:1366:5)
+    at Array.async.auto.start (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/hooks/http/start.js:29:35)
+    at /root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:484:38
+    at _each (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:46:13)
+    at Object.async.auto (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/node_modules/async/lib/async.js:455:9)
+    at Sails.startServer (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/hooks/http/start.js:16:11)
+    at emitNone (events.js:67:13)
+    at Sails.emit (events.js:166:7)
+    at Sails.emitter.emit (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/after.js:50:11)
+    at afterBootstrap (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/initialize.js:56:11)
+    at bootstrapDone (/root/mongodb-imports/il-dispensaries-api/node_modules/sails/lib/app/private/bootstrap.js:51:14)
+    at Object.module.exports.bootstrap (/root/mongodb-imports/il-dispensaries-api/config/bootstrap.js:16:3)
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Tue Nov 24 2015 23:55:01 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
+
+               .-..-.
+
+   Sails              <|    .-..-.
+   v0.11.3             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/root/mongodb-imports/il-dispensaries-api`
+To see your app, visit [4mhttp://localhost[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Wed Nov 25 2015 01:15:59 GMT-0500 (EST)[39m
+
+Environment : production
+Port        : 80
+[90m--------------------------------------------------------[39m
