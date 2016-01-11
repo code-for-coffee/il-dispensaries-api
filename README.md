@@ -6,6 +6,14 @@ The first public API for Illinois dispensaries. This is an open project that is 
 
 * http://www.idfpr.com/Forms/MC/ListofLicensedDispensaries.pdf
 
+## Sample Usage 
+
+```javascript
+$.getJSON('http://illinoisdispensaries.space/api-v1', function(data) {
+	console.log(data);
+});
+```
+
 ## Technology
 
 This is a full stack application written in Node.js with Express using  [Sails](http://sailsjs.org). We stuck with the default theme and templates (EJS). [Waterline](https://github.com/balderdashy/waterline) is an amazing ORM. <3
