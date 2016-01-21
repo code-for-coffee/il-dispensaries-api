@@ -193,5 +193,18 @@
   "licenseExpirationDate": "2016-12-01",
   "credentialNumber": "280.000015-DISP",
   "registryId": "32-001"
+},
+{
+  "name": "PDI Medical",
+  "address": "1623 Barclay Boulevard Buffalo Grove, IL 60089 ",
+  "lat": "42.180727",
+  "long": "-87.934154",
+  "city": "Buffalo Grove, Illinois",
+  "phone": "(224)377-9734",
+  "medicalCannabisDistrict": "27",
+  "licenseIssueDate": "2015-12-07",
+  "licenseExpirationDate": "2016-12-07",
+  "credentialNumber": "280.000016-DISP",
+  "registryId": "27-002"
 }
 ]
