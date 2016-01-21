@@ -232,5 +232,70 @@
   "licenseExpirationDate": "2016-12-15",
   "credentialNumber": "280.000018-DISP",
   "registryId": "33-001"
+},
+{
+  "name": "Windy City Cannabis",
+  "address": "1137 W. 175th Street Homewood, IL 60430",
+  "lat": "41.571821",
+  "long": "-87.644792",
+  "city": "Homewood, Illinois",
+  "phone": "(312)874-7040",
+  "medicalCannabisDistrict": "40",
+  "licenseIssueDate": "2015-12-21",
+  "licenseExpirationDate": "2016-12-21",
+  "credentialNumber": "280.000019-DISP",
+  "registryId": "40-001"
+},
+{
+  "name": "Healthway Services of West Illinois",
+  "address": "3714 Illinois Avenue, Unit C St. Charles, IL 60174",
+  "lat": "41.918129",
+  "long": "-88.271003",
+  "city": "St. Charles, Illinois",
+  "phone": "(630)377-7373",
+  "medicalCannabisDistrict": "26",
+  "licenseIssueDate": "2015-12-23",
+  "licenseExpirationDate": "2016-12-23",
+  "credentialNumber": "280.000020-DISP",
+  "registryId": "26-001"
+},
+{
+  "name": "Windy City Cannabis",
+  "address": "8340 S. Roberts Road Justice, IL 60458",
+  "lat": "41.739294",
+  "long": "-87.818822",
+  "city": "Justice, Illinois",
+  "phone": "(312)874-7040",
+  "medicalCannabisDistrict": "37",
+  "licenseIssueDate": "2016-01-04",
+  "licenseExpirationDate": "2017-01-04",
+  "credentialNumber": "280.000021-DISP",
+  "registryId": "37-001"
+},
+{
+  "name": "HCI Alternatives",
+  "address": "1014 Eastport Plaza Drive Collinsville, IL 62234",
+  "lat": "38.679108",
+  "long": "-90.015304",
+  "city": "Collinsville, Illinois",
+  "phone": "(618)381-9229",
+  "medicalCannabisDistrict": "11",
+  "licenseIssueDate": "2016-01-07",
+  "licenseExpirationDate": "2017-01-07",
+  "credentialNumber": "280.000022-DISP",
+  "registryId": "11-002"
+},
+{
+  "name": "Windy City Cannabis",
+  "address": "11425 South Harlem Avenue Worth, IL 60482",
+  "lat": "41.683375",
+  "long": "-87.796830",
+  "city": "Worth, Illinois",
+  "phone": "(312)874-7040",
+  "medicalCannabisDistrict": "38",
+  "licenseIssueDate": "2016-01-15",
+  "licenseExpirationDate": "2017-01-15",
+  "credentialNumber": "280.000023-DISP",
+  "registryId": "38-001"
 }
 ]
