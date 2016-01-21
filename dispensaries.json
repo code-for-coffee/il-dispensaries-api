@@ -206,5 +206,31 @@
   "licenseExpirationDate": "2016-12-07",
   "credentialNumber": "280.000016-DISP",
   "registryId": "27-002"
+},
+{
+  "name": "Greenhouse Group",
+  "address": "9930 W. 190th Street, Unit H Mokena, IL 60448",
+  "lat": "41.544862",
+  "long": "-87.858876",
+  "city": "Mokena, Illinois",
+  "phone": "(708)258-1141",
+  "medicalCannabisDistrict": "29",
+  "licenseIssueDate": "2015-12-09",
+  "licenseExpirationDate": "2016-12-09",
+  "credentialNumber": "280.000017-DISP",
+  "registryId": "29-003"
+},
+{
+  "name": "Greenhouse Group",
+  "address": "151 Pfingsten Road, Unit V Deerfield, IL 60015",
+  "lat": "42.150741",
+  "long": "-87.848184",
+  "city": "Deerfield, Illinois",
+  "phone": "(847)686-2821",
+  "medicalCannabisDistrict": "33",
+  "licenseIssueDate": "2015-12-15",
+  "licenseExpirationDate": "2016-12-15",
+  "credentialNumber": "280.000018-DISP",
+  "registryId": "33-001"
 }
 ]
