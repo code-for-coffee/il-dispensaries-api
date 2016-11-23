@@ -297,5 +297,70 @@
   "licenseExpirationDate": "2017-01-15",
   "credentialNumber": "280.000023-DISP",
   "registryId": "38-001"
-}
+},
+  {
+    "name": "Nature’s Care Company",
+    "address": " 11425 South Harlem Avenue Worth, Illinois 60482 ",
+    "lat": "",
+    "long": "",
+    "city": "Worth",
+    "phone": "(312) 874-7040 ",
+    "medicalCannabisDistrict": "38",
+    "licenseIssueDate": "2016-01-22",
+    "licenseExpirationDate": "2017-01-22",
+    "credentialNumber": "280-000023-DISP",
+    "registryId": "38-001"
+  },
+  {
+    "name": "Nature’s Treatment of Illinois",
+    "address": "973 Tech Drive Milan, Illinois 61264",
+    "lat": "",
+    "long": "",
+    "city": "Milan",
+    "phone": "(309) 283-7642",
+    "medicalCannabisDistrict": "7",
+    "licenseIssueDate": "2016-01-25",
+    "licenseExpirationDate": "2017-01-25",
+    "credentialNumber": "280-000025-DISP",
+    "registryId": "07-001"
+  },
+  {
+    "name": "Windy City Cannabis",
+    "address": "2535 Veterans Drive Posen, Illinois 60469",
+    "lat": "",
+    "long": "",
+    "city": "Posen",
+    "phone": "(312) 874-7040",
+    "medicalCannabisDistrict": "39",
+    "licenseIssueDate": "2016-01-29",
+    "licenseExpirationDate": "2017-01-29",
+    "credentialNumber": "280-000026-DISP",
+    "registryId": "39-001"
+  },
+  {
+    "name": "3C Compassionate Care Center",
+    "address": "1700 Quincy Avenue, Unit 103 Naperville, Illinois 60540",
+    "lat": "",
+    "long": "",
+    "city": "Naperville",
+    "phone": "(630) 369-4000",
+    "medicalCannabisDistrict": "24",
+    "licenseIssueDate": "2016-01-29",
+    "licenseExpirationDate": "2018-01-29",
+    "credentialNumber": "280-000027-DISP",
+    "registryId": "24-001"
+  },
+  {
+  "name": "MOCA | Modern Cannabis",
+  "address": "2847 W. Fullerton Avenue Chicago, Illinois 60647",
+  "lat": "",
+  "long": "",
+  "city": "Chicago",
+  "phone": "(773) 722-6622",
+  "medicalCannabisDistrict": "48",
+  "licenseIssueDate": "2016-02-01",
+  "licenseExpirationDate": "2017-02-01",
+  "credentialNumber": "280-000028-DISP",
+  "registryId": "48-001"
+  }
 ]
