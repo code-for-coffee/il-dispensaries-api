@@ -16,7 +16,7 @@ $.getJSON('http://illinoisdispensaries.space/api-v1', function(data) {
 
 ## Technology
 
-This is a full stack application written in Node.js with Express using  [Sails](http://sailsjs.org). We stuck with the default theme and templates (EJS). [Waterline](https://github.com/balderdashy/waterline) is an amazing ORM. <3
+This is a full stack application written in Node.js with Express using  [Sails](http://sailsjs.org). It requires LTS support of Node (v4.~). Grunt tasks have been disabled for future builds and will be migrated to Gulp. This is due to references in the Grunt tasks with Sails.js internally. It appears that it relied on hardcoded entries into `node_modules/` that are no longer up-to-date and I do not want to modify the core of the Sails.js framework for a simple API.
 
 ## Data Models
 
