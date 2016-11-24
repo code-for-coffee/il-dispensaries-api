@@ -36,8 +36,8 @@
       <file leaf-file-name="dispensaries.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dispensaries.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="400" column="40" selection-start-line="400" selection-start-column="40" selection-end-line="400" selection-end-column="40" />
+            <state relative-caret-position="371">
+              <caret line="454" column="25" selection-start-line="454" selection-start-column="25" selection-end-line="454" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -186,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1452792917301</updated>
       <workItem from="1479880060052" duration="1814000" />
-      <workItem from="1479970165445" duration="303000" />
+      <workItem from="1479970165445" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2117000" />
+    <option name="totallyTimeSpent" value="2513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="700" height="877" extended-state="0" />
@@ -251,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dispensaries.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="400" column="40" selection-start-line="400" selection-start-column="40" selection-end-line="400" selection-end-column="40" />
+        <state relative-caret-position="371">
+          <caret line="454" column="25" selection-start-line="454" selection-start-column="25" selection-end-line="454" selection-end-column="25" />
           <folding />
         </state>
       </provider>
