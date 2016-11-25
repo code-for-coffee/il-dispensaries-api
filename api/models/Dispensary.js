@@ -1,8 +1,8 @@
 /**
 * Dispensary.js
 *
-* @description :: TODO: You might write a short summary of how this model works and what it represents here.
-* @docs        :: http://sailsjs.org/#!documentation/models
+* @description :: Basic model for a Dispensary object.
+* @docs        :: https://github.com/code-for-coffee/il-dispensaries-api/README.md
 */
 
 module.exports = {

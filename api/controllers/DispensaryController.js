@@ -7,7 +7,13 @@
 
 module.exports = {
 	index: function(req, res) {
-
+    Retrieval.create({
+      host: req.hostname,
+      ip: req.ip,
+      date: new Date()
+    }).exec(function(err, results) {
+      //console.log(results)
+    });
 		Dispensary.find({}).exec(function(err, dispensaries) {
 			if (err) {
 				res.json({
