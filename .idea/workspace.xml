@@ -2,43 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0920dc0-dce1-4146-b748-8ff5ed3fb1db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Thin.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/skeleton.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/public/js/dependencies/sails.io.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/dependencies/sails.io.js" afterPath="$PROJECT_DIR$/sails.io.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/concat/production.css" afterPath="$PROJECT_DIR$/.tmp/public/concat/production.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/concat/production.js" afterPath="$PROJECT_DIR$/.tmp/public/concat/production.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/js/app.js" afterPath="$PROJECT_DIR$/.tmp/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/min/production.min.css" afterPath="$PROJECT_DIR$/.tmp/public/min/production.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/min/production.min.js" afterPath="$PROJECT_DIR$/.tmp/public/min/production.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/styles/importer.css" afterPath="$PROJECT_DIR$/.tmp/public/styles/importer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/importer.less" afterPath="$PROJECT_DIR$/assets/styles/importer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/styles/primary.css" afterPath="$PROJECT_DIR$/.tmp/public/styles/primary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/primary.css" afterPath="$PROJECT_DIR$/assets/styles/primary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dispensaries.json" afterPath="$PROJECT_DIR$/dispensaries.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app.js" afterPath="$PROJECT_DIR$/frontend/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage.ejs" afterPath="$PROJECT_DIR$/views/homepage.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
     </list>
     <ignored path="il-dispensaries-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,11 +45,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="dispensaries.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dispensaries.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="304" column="25" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="384">
+                <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="138">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +104,8 @@
       <file leaf-file-name="homepage.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/homepage.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="235">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,8 +114,8 @@
       <file leaf-file-name="primary.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/primary.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -123,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dispensaries.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/api/models/Dispensary.js" />
         <option value="$PROJECT_DIR$/api/controllers/DispensaryController.js" />
@@ -136,10 +148,12 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/js/materialize.js" />
         <option value="$PROJECT_DIR$/views/layout.ejs" />
-        <option value="$PROJECT_DIR$/views/homepage.ejs" />
         <option value="$PROJECT_DIR$/assets/styles/importer.less" />
-        <option value="$PROJECT_DIR$/frontend/app.js" />
         <option value="$PROJECT_DIR$/assets/styles/primary.css" />
+        <option value="$PROJECT_DIR$/dispensaries.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/views/homepage.ejs" />
+        <option value="$PROJECT_DIR$/frontend/app.js" />
       </list>
     </option>
   </component>
@@ -157,7 +171,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
+    <option name="x" value="53" />
     <option name="y" value="23" />
     <option name="width" value="1442" />
     <option name="height" value="1057" />
@@ -357,16 +371,16 @@
       <option name="presentableId" value="Default" />
       <updated>1452792917301</updated>
       <workItem from="1479880060052" duration="1814000" />
-      <workItem from="1479970165445" duration="8444000" />
+      <workItem from="1479970165445" duration="11407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10258000" />
+    <option name="totallyTimeSpent" value="13221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="23" width="1442" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="53" y="23" width="1442" height="1057" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16819142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -377,7 +391,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24889544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37593183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37593183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -435,7 +449,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/app.js</url>
-          <line>26</line>
+          <line>116</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -449,14 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dispensaries.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="589" column="23" selection-start-line="589" selection-start-column="23" selection-end-line="589" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -626,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/homepage.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/importer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -644,16 +642,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/primary.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dispensaries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="304" column="25" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="384">
+            <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/homepage.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="138">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
           <folding />
         </state>
       </provider>

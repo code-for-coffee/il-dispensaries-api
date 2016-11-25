@@ -7,6 +7,10 @@
       <p>If you'd like to offer suggestions or contribute, you may <a href="https://github.com/code-for-coffee/il-dispensaries-api">view the Github repository</a>.</p>
     </div>
     <div class="one-half column">
+      <h4>Navigation</h4>
+      <a href="#anchor-facts"><li>Fun Facts</li></a>
+      <a href="#anchor-documentation"><li>API Documentation</li></a>
+      <a href="#anchor-list"><li>Current Dispensaries</li></a>
       <h4>References</h4>
       <a target="_blank" href="http://www.idfpr.com/profs/medcan.asp"><li>IDFPR Med Can Pilot Program</li></a>
       <a target="_blank" href="http://www.idfpr.com/Forms/MC/ListofLicensedDispensaries.pdf"><li>List of approved IL Dispensaries</li></a>
@@ -14,7 +18,32 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="anchor-facts">
+  <div class="row">
+    <div class="twelve columns">
+      <h3>Fun Facts</h3>
+      <div id="dispensary-facts"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="anchor-documentation">
+  <div class="row">
+    <div class="twelve columns">
+      <h3>API Documentation</h3>
+      <p>You may use <code>GET</code> requests to <a href="http://illinoisdispensaries.space/api-v1/">http://illinoisdispensaries.space/api-v1/</a>.
+        </p>
+      <script src="https://gist.github.com/code-for-coffee/3323cd01e94db444bbd2d08c87cd2f0c.js"></script>
+      <p>It will return an array of JSON objects that represent every dispensary approved by the Illinois Medical Cannabis Pilot Program. Below is a sample object. Each object's keys will have an associated value (do not expect any null/undefined values).</p>
+      <script src="https://gist.github.com/code-for-coffee/447eae2e3a75e3769808225422fe324c.js"></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container" id="anchor-list">
   <div class="row">
     <div class="twelve columns">
       <h3>Current Illinois Dispensaries</h3>

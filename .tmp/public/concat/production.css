@@ -444,6 +444,9 @@ td,
 th {
   padding: 0;
 }
+body {
+  margin-top: 25px;
+}
 .dispensary {
   border-radius: 5px;
   background-color: #F1F1F1;

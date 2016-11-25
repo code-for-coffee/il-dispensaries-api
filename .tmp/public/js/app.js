@@ -53,6 +53,129 @@ var Dispensary = React.createClass({
   }
 });
 
+var City = React.createClass({
+  displayName: 'City',
+
+  render: function render() {
+    var city = this.props.city;
+    var count = this.props.count;
+    var word = void 0;
+    if (count < 2) {
+      word = 'dispensary';
+    } else {
+      word = 'dispensaries';
+    }
+    return React.createElement(
+      'li',
+      null,
+      city,
+      ' contains ',
+      count,
+      ' ',
+      word,
+      '.'
+    );
+  }
+});
+
+var Year = React.createClass({
+  displayName: 'Year',
+
+  render: function render() {
+    var year = this.props.year;
+    var count = this.props.count;
+    return React.createElement(
+      'li',
+      null,
+      count,
+      ' dispensaries opened in ',
+      year,
+      '.'
+    );
+  }
+});
+
+var DispensaryFacts = React.createClass({
+  displayName: 'DispensaryFacts',
+
+  getInitialState: function getInitialState() {
+    console.log('set initial state');
+    return { data: [] };
+  },
+  componentDidMount: function componentDidMount() {
+    console.log('component mounted');
+    $.ajax({
+      url: this.props.url,
+      dataType: 'json',
+      cache: false,
+      success: function (data) {
+        this.setState({ data: data });
+      }.bind(this),
+      error: function (xhr, status, err) {
+        console.error(this.props.url, status, err.toString());
+      }.bind(this)
+    });
+  },
+  render: function render() {
+    var cities = {};
+    var years = {};
+    var totalCount = this.state.data.length;
+    this.state.data.forEach(function (dispensary) {
+      var city = dispensary.city;
+      var year = dispensary.licenseIssueDate.slice(0, 4);
+      if (!cities.hasOwnProperty(city)) {
+        cities[city] = 1;
+      } else {
+        cities[city] = cities[city] + 1;
+      }
+      if (!years.hasOwnProperty(year)) {
+        years[year] = 1;
+      } else {
+        years[year] = years[year] + 1;
+      }
+    });
+    var cityNodes = [];
+    var yearNodes = [];
+    for (var city in cities) {
+      var loc = cities[city];
+      if (loc > 1) {
+        cityNodes.push(React.createElement(City, { city: city, count: loc }));
+      }
+    }
+    for (var yr in years) {
+      var date = years[yr];
+      yearNodes.push(React.createElement(Year, { year: yr, count: date }));
+    }
+    return React.createElement(
+      'p',
+      null,
+      React.createElement(
+        'li',
+        null,
+        'Total number of dispensaries in IL: ',
+        React.createElement(
+          'strong',
+          null,
+          totalCount
+        ),
+        '.'
+      ),
+      React.createElement(
+        'h5',
+        null,
+        'The following cities have more than one dispensary:'
+      ),
+      cityNodes,
+      React.createElement(
+        'h5',
+        null,
+        'Dispensaries by year'
+      ),
+      yearNodes
+    );
+  }
+});
+
 var DispensaryList = React.createClass({
   displayName: 'DispensaryList',
 
@@ -90,6 +213,8 @@ var DispensaryList = React.createClass({
 });
 
 ReactDOM.render(React.createElement(DispensaryList, { url: 'http://illinoisdispensaries.space/api-v1' }), document.getElementById('dispensary-locations'));
+
+ReactDOM.render(React.createElement(DispensaryFacts, { url: 'http://illinoisdispensaries.space/api-v1' }), document.getElementById('dispensary-facts'));
 
 },{"jquery":25,"react":180,"react-dom":27}],2:[function(require,module,exports){
 (function (process){
