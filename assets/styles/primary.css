@@ -1,0 +1,15 @@
+.dispensary {
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.dispensary > h6 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: bolder;
+}
+.dispensary > em {
+
+}
