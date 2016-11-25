@@ -349,7 +349,7 @@
     "licenseExpirationDate": "2018-01-29",
     "credentialNumber": "280-000027-DISP",
     "registryId": "24-001"
-  },
+  }
 ,{
   "name": "HCI Alternatives",
   "address": "628 East Adams Street Springfield, Illinois 62701",
@@ -363,19 +363,6 @@
   "credentialNumber": "280-000029-DISP",
   "registryId": "09-002"
 },
-  {
-    "name": "",
-    "address": "",
-    "lat": "",
-    "long": "",
-    "city": "",
-    "phone": "",
-    "medicalCannabisDistrict": "",
-    "licenseIssueDate": "",
-    "licenseExpirationDate": "",
-    "credentialNumber": "",
-    "registryId": ""
-  },
   {
     "name": "Midwest Compassion Center",
     "address": "1335 Lakeside Drive, Unit 4 Romeoville, Illinois 60446",
@@ -572,42 +559,42 @@
     "registryId": "41-002"
   },
   {
-    "name": "",
-    "address": "",
+    "name": "The Green Solution Illinois",
+    "address": "501 W. Northtown Road Normal, Illinois 61761",
     "lat": "",
     "long": "",
-    "city": "",
-    "phone": "",
-    "medicalCannabisDistrict": "",
-    "licenseIssueDate": "",
-    "licenseExpirationDate": "",
-    "credentialNumber": "",
-    "registryId": ""
+    "city": "Normal",
+    "phone": "(309) 434-5141",
+    "medicalCannabisDistrict": "6",
+    "licenseIssueDate": "2016-09-12",
+    "licenseExpirationDate": "2017-09-12",
+    "credentialNumber": "280-000045-DISP",
+    "registryId": "06-001"
   },
   {
-    "name": "",
-    "address": "",
+    "name": "NuMed Urbana",
+    "address": "105 E. University Avenue Urbana, Illinois 61801",
     "lat": "",
     "long": "",
-    "city": "",
-    "phone": "",
-    "medicalCannabisDistrict": "",
-    "licenseIssueDate": "",
-    "licenseExpirationDate": "",
-    "credentialNumber": "",
-    "registryId": ""
+    "city": "Urbana",
+    "phone": "(217) 607-2867",
+    "medicalCannabisDistrict": "10",
+    "licenseIssueDate": "2016-10-20",
+    "licenseExpirationDate": "2017-10-20",
+    "credentialNumber": "280-000046-DISP",
+    "registryId": "10-001"
   },
   {
-    "name": "",
-    "address": "",
+    "name": "Union Group of Illinois",
+    "address": "6428 N. Milwaukee Avenue Chicago, Illinois 60631",
     "lat": "",
     "long": "",
-    "city": "",
-    "phone": "",
-    "medicalCannabisDistrict": "",
-    "licenseIssueDate": "",
-    "licenseExpirationDate": "",
-    "credentialNumber": "",
-    "registryId": ""
+    "city": "Chicago",
+    "phone": "(872) 304-3113",
+    "medicalCannabisDistrict": "41",
+    "licenseIssueDate": "2016-11-10",
+    "licenseExpirationDate": "2017-11-10",
+    "credentialNumber": "280-000047-DISP",
+    "registryId": "41-001"
   }
 ]
