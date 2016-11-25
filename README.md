@@ -1,4 +1,4 @@
-# Illinois Dispensary API: http://illinoisdispensaries.space/ 
+# Illinois Dispensary API: http://illinoisdispensaries.space/
 
 The first public API for Illinois dispensaries. This is an open project that is aimed to publish data released via **IDFPR**'s [Medical Cannabis Pilot Program](http://www.idfpr.com/profs/medcan.asp).
 
@@ -6,7 +6,7 @@ The first public API for Illinois dispensaries. This is an open project that is 
 
 * http://www.idfpr.com/Forms/MC/ListofLicensedDispensaries.pdf
 
-## Sample Usage 
+## Sample Usage
 
 ```javascript
 $.getJSON('http://illinoisdispensaries.space/api-v1', function(data) {
@@ -61,4 +61,4 @@ attributes: {
 
 ##### MongoDB Importing
 
-`mongoimport --collection dispensary --file dispensary.json --type json -d il-dispensary-api --jsonArray`
+`mongoimport --collection dispensary --file dispensaries.json --type json -d il-dispensary-api --jsonArray`
