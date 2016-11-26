@@ -1,6 +1,101 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 const $ = require('jquery');
+const Chart = require('chartjs');
+const Moment = require('moment');
+
+console.log('chart')
+console.log(Chart)
+
+$(document).ready(() => {
+
+  class MonthOpenedChart {
+    constructor() {
+      this.dataset = {};
+      this.props = {};
+      console.log('hi mom');
+      $.ajax({
+        url: 'http://illinoisdispensaries.space/api-v1',
+        dataType: 'json',
+        success: function(data) {
+          console.log('uh...')
+          let tempData = {};
+          for (let disp in data) {
+            let dispensary = data[disp];
+            let date = Moment(dispensary.licenseIssueDate);
+            //console.log("" + date.get('year') + '-' + date.get('month'));
+            var m = date.get('month') + 1;
+            if (m < 10) {
+              m = "0" + m;
+            }
+            var x = "" + date.get('year') + '-' + m;
+            // console.log(x);
+            // console.log(typeof x);
+            if (!tempData.hasOwnProperty(x)) {
+              tempData[x] = 1;
+            } else {
+              tempData[x] = tempData[x] + 1;
+            }
+          }
+          //console.log('chart props');
+          //console.log(Object.keys(tempData).sort());
+          var dataArray = [];
+          var labels = Object.keys(tempData).sort();
+          console.log(labels);
+          for (var i = 0; i < labels.length; i++) {
+            let mo = labels[i];
+            console.log(i);
+            console.log(mo);
+            dataArray.push(tempData[mo]);
+          }
+          console.log('--------')
+          console.log(dataArray);
+
+          var dataset = {
+            labels: labels,
+            datasets: [
+              {
+                label: "Dispensary Licenses Issued by Month",
+                fill: false,
+                lineTension: 0.1,
+                backgroundColor: "rgba(75,192,192,0.4)",
+                borderColor: "rgba(75,192,192,1)",
+                borderCapStyle: 'butt',
+                borderDash: [],
+                borderDashOffset: 0.0,
+                borderJoinStyle: 'miter',
+                pointBorderColor: "rgba(75,192,192,1)",
+                pointBackgroundColor: "#fff",
+                pointBorderWidth: 1,
+                pointHoverRadius: 5,
+                pointHoverBackgroundColor: "rgba(75,192,192,1)",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointHoverBorderWidth: 2,
+                pointRadius: 1,
+                pointHitRadius: 10,
+                data: dataArray,
+                spanGaps: false,
+              }
+            ]
+          };
+          console.log(dataset);
+          var ctx = document.getElementById("line-chart").getContext("2d");
+          var myLineChart = new Chart(ctx, {
+            type: 'line',
+            data: dataset
+          });
+        },
+        error: function(xhr, status, err) {
+          console.log('Error', err);
+          console.log(err);
+        }
+      });
+    }
+  }
+  new MonthOpenedChart();
+
+})
+
 
 const Dispensary = React.createClass({
   render: function() {
