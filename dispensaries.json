@@ -585,16 +585,29 @@
     "registryId": "10-001"
   },
   {
-    "name": "Union Group of Illinois",
-    "address": "6428 N. Milwaukee Avenue Chicago, Illinois 60631",
-    "lat": "41.997854",
-    "long": "-87.788725",
-    "city": "Chicago",
-    "phone": "(872) 304-3113",
-    "medicalCannabisDistrict": "41",
-    "licenseIssueDate": "2016-11-10",
-    "licenseExpirationDate": "2017-11-10",
-    "credentialNumber": "280-000047-DISP",
-    "registryId": "41-001"
+    "name": "NuMed East Peoria",
+    "address": "504 Riverside Drive East Peoria, Illinois 61611",
+    "lat": "40.680963",
+    "long": "-89.582002",
+    "city": "Peoria",
+    "phone": "(309) 839-1330 ",
+    "medicalCannabisDistrict": "8",
+    "licenseIssueDate": "2016-12-01",
+    "licenseExpirationDate": "2017-12-01",
+    "credentialNumber": "280-000048-DISP",
+    "registryId": "08-001"
+  },
+  {
+    "name": "Maribis of Springfield",
+    "address": "2272 North Grand Avenue East Grandview, Illinois 62702",
+    "lat": "39.816516",
+    "long": "-89.619443",
+    "city": "Grandview",
+    "phone": "(888) 888-0217",
+    "medicalCannabisDistrict": "9",
+    "licenseIssueDate": "2016-12-13",
+    "licenseExpirationDate": "2017-12-13",
+    "credentialNumber": "280-000049-DISP",
+    "registryId": "09-001"
   }
 ]
